@@ -49,14 +49,4 @@ $data = [
     ],
 ];
 
-return [
-'resellerId' => 1,
-'subject' => 'New Contact',
-'description' => 'You have a new contact - Jeff Lewis',
-'rmId' => $rmId,
-'domainId' => $site_id,
-'firstName' => 'Jeff',
-'lastName' => 'Lewis',
-'type' => 'newProspect',
-'contextId' => $tmpProspectId
-];
+return $data;
