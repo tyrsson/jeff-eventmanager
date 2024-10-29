@@ -1,0 +1,11 @@
+{
+    "require": {
+        "laminas/laminas-eventmanager": "^3.13"
+    },
+    "autoload": {
+        "psr-4": {
+            "Listener\\": "src/Listener/",
+            "Event\\": "src/Event/"
+        }
+    }
+}
